@@ -1,0 +1,10 @@
+.nfCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nfImg {
+  height: 80px;
+  width: 120px;
+}

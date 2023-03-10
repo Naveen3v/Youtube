@@ -1,0 +1,130 @@
+.homeCont {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 2%;
+}
+.homeMainCont {
+  display: flex;
+  flex-direction: row;
+}
+.rightCont {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+}
+.leftCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+.navtop {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navtopList {
+  display: flex;
+  flex-direction: row;
+}
+.navtopImg {
+  height: 20px;
+  width: 50px;
+}
+.navtopheading {
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-left: 1%;
+}
+.navbottom {
+  display: flex;
+  flex-direction: column;
+}
+.navbottomHeading {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+}
+.navbottomImg {
+  display: flex;
+  flex-direction: row;
+  padding: 1%;
+}
+.bottomImg {
+  height: 20px;
+  width: 50px;
+}
+.navbottomPara {
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+.premiumCont {
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
+  height: 35vh;
+  width: 80vw;
+  background-size: cover;
+}
+.premiumImgCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.premiumImg {
+  height: 30px;
+  width: 60px;
+}
+.premiumBtn {
+  background-color: transparent;
+  border: 0px;
+}
+.getBtn {
+  height: 30px;
+  width: 120px;
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
+  font-weight: bold;
+}
+.searchCont {
+  display: flex;
+  flex-direction: row;
+}
+.searchEle {
+  height: 30px;
+  width: 590px;
+  border: 2px solid black;
+}
+.searchImgBtn {
+  height: 30px;
+  width: 60px;
+}
+.loader-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3%;
+}
+.failureCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+.failImg {
+  height: 100px;
+  width: 120px;
+}
+.videoListCont {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 3%;
+}
+.homeLink {
+  text-decoration: none;
+}

@@ -1,0 +1,40 @@
+.videosList {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+}
+.videoImg {
+  height: 90px;
+  width: 300px;
+}
+.videoProfileCont {
+  display: flex;
+  flex-direction: row;
+  padding: 0.2%;
+}
+.videoProfileImg {
+  height: 30px;
+  width: 40px;
+}
+
+.profileText {
+  display: flex;
+  flex-direction: column;
+  padding-right: 0.1%;
+  overflow: auto;
+}
+
+.profilePara {
+  font-family: 'Roboto';
+  font-size: 8px;
+  padding-left: 1%;
+}
+.views {
+  display: flex;
+  flex-direction: row;
+  padding: 1%;
+}
+.linkVideos {
+  text-decoration: none;
+}

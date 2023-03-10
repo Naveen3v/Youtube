@@ -1,0 +1,25 @@
+.gamList {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 10%;
+  margin: 5%;
+}
+.gamImg {
+  height: 220px;
+  width: 250px;
+  padding: 5%;
+}
+.gamPara {
+  font-family: 'Roboto';
+  font-size: 10px;
+  color: white;
+}
+.gamHead {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: white;
+}
+.gamLink {
+  text-decoration: none;
+}

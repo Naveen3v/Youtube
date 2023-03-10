@@ -1,0 +1,48 @@
+.svmCont {
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+  height: 100vh;
+  background-size: cover;
+}
+.svCont {
+  display: flex;
+  flex-direction: row;
+}
+.svright {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 80vw;
+  padding: 2%;
+}
+.svmHeading {
+  display: flex;
+  flex-direction: row;
+}
+.svmheading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: white;
+}
+
+.svtopImg {
+  height: 30px;
+  width: 60px;
+  color: red;
+}
+.svfailCont {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 60vh;
+}
+.svfailImg {
+  height: 80px;
+  width: 120px;
+}
+.nsvPara {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 20px;
+}

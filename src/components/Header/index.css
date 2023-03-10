@@ -1,0 +1,38 @@
+.headerCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.headerlogo {
+  height: 30px;
+  width: 120px;
+}
+.logoutCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.headerList {
+  list-style-type: none;
+  margin-left: 5%;
+}
+.headerProfileImg {
+  height: 30px;
+  width: 20px;
+}
+.iconImg {
+  height: 30px;
+  width: 20px;
+}
+.logoutBtn {
+  height: 30px;
+  width: 80px;
+  color: #3b82f6;
+  background-color: transparent;
+  border: 1px solid #3b82f6;
+  border-radius: 1px;
+}
+.themeBtn {
+  background-color: transparent;
+  border: 0px;
+}
